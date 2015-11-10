@@ -6,6 +6,7 @@ package edu.intertec.recruit.test1intertec;
 public class AdjacentValues {
     int[] A;
     
+    
 
     public int solution(int[] A){
         this.A = A;
