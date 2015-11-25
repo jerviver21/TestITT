@@ -13,13 +13,15 @@ public class AdjacentValues {
         int maximunDistance = -1;
         int lenghtA = this.A.length;
         
-        for(int P:A){
+        for(int P=0; P<lenghtA; P++){
             int maxDistanceP = findMaxDistance(P, lenghtA);
             if(maxDistanceP > maximunDistance){
                 maximunDistance = maxDistanceP;
             }
         }
+        
         return maximunDistance;
+        
     }
     
     
